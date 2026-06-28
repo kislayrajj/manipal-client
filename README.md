@@ -1,70 +1,157 @@
-# Getting Started with Create React App
+# 🏥 Clinic Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A full-stack healthcare management platform for appointment scheduling, patient records, billing, and real-time financial analytics. This repository is my personal fork of a collaborative project and showcases the features and modules I contributed to during development.
 
-## Available Scripts
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-In the project directory, you can run:
+🔗 **Live Demo:** https://manipal-client.vercel.app/home
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📖 Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Clinic Management System streamlines day-to-day clinic operations by replacing manual workflows with a centralized digital platform. It enables healthcare staff to manage appointments, patient records, billing, and financial reporting through a single intuitive interface.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤝 My Contributions
 
-### `npm run build`
+As part of a collaborative development team, I contributed to:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Developing frontend modules using React.js
+- Building reusable UI components and layouts
+- Patient management interfaces
+- Billing and payment workflows
+- Dashboard and financial analytics pages
+- REST API integration
+- State management
+- UI enhancements, bug fixes, and performance improvements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> **Note:** This repository is a personal fork showcasing my contributions to the original collaborative project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📅 Appointment Scheduling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Book appointments
+- View upcoming appointments
+- Reschedule appointments
+- Cancel appointments
+- Search patients by name or record ID
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 👨‍⚕️ Patient Record Management
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Create patient profiles
+- Update patient information
+- View complete medical history
+- Centralized patient records across modules
 
-## Learn More
+### 💳 Billing & Payments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Generate bills linked to appointments
+- Track payment status
+- Support paid, pending, and cancelled payments
+- Revenue summaries
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📊 Financial Dashboard
 
-### Code Splitting
+- Real-time revenue analytics
+- Daily, weekly, and monthly reports
+- Transaction summaries
+- Business insights for clinic administrators
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🎨 Reusable UI Components
 
-### Analyzing the Bundle Size
+- Custom buttons
+- Data tables
+- Forms
+- Modal components
+- Responsive layouts
+- Consistent design system using Tailwind CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🛠 Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| Layer | Technology |
+|--------|------------|
+| Frontend | React.js, Tailwind CSS, Bootstrap |
+| Backend | Node.js, Express.js, REST API (MVC Architecture) |
+| Database | MongoDB (Mongoose) |
+| Authentication | JWT |
+| Frontend Deployment | Vercel |
+| Backend Deployment | DigitalOcean |
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🏗 Architecture
 
-### Deployment
+```text
+React.js Frontend (Vercel)
+          │
+          │ REST API
+          ▼
+Express.js Backend (DigitalOcean)
+          │
+          ▼
+MongoDB
+ ├── Patients
+ ├── Appointments
+ ├── Billing
+ └── Transactions
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The backend follows the MVC architecture with environment-based configuration for development and production. All protected routes are secured using JWT authentication.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 Local Setup
+
+### Clone the repository
+
+```bash
+git clone https://github.com/kislayrajj/manipal-client.git
+cd manipal-client
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Create a `.env` file
+
+```env
+VITE_API_BASE_URL=http://localhost:5000
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+> **Note:** The backend repository is not included in this fork. Access can be provided upon request.
+
+---
+
+## 🙏 Acknowledgements
+
+This repository is a personal fork of a collaborative project developed under the guidance of my mentor alongside other team members. Credit goes to everyone who contributed to the original project.
+
+---
+
+## 👨‍💻 Author
+
+**Kislay Raj**
+
+- 🌐 Portfolio: https://portfolio-w-react.vercel.app/
+- 💼 LinkedIn: https://www.linkedin.com/in/kislay-raj-b462502a6/
+- 🐙 GitHub: https://github.com/kislayrajj
